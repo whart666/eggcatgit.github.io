@@ -1,4 +1,62 @@
 <p>Ever wondered how you do a space party? Yoy planet.</p>
+<style>
+    body {
+  font-family: Raleway, sans-serif;
+  background: lighten(#3498db, 40%);
+  padding: 30px;
+}
+
+// Counter
+.counter ul {
+  list-style: none;
+  clear: both;
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  li {
+    float: left;
+    width: 70px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #a2a2a2;
+    border: 2px solid;
+    border-radius: 4px;
+    box-shadow: 0 0 2px #a2a2a2;
+    cursor: pointer;
+    .count {
+      font-size: 0.8em;
+    }
+  }
+}
+
+.counter1 li {
+  &[data-action="like"][data-status="voted"] {
+    color: #1abc9c;
+    box-shadow: 0 0 2px #1abc9c;
+  }
+  &[data-action="dislike"][data-status="voted"] {
+    color: #f25757;
+    box-shadow: 0 0 2px #f25757;
+  }
+  .icon {
+    font-size: 35px;
+    display: block;
+    &::before {
+      font-family: fontAwesome;
+    }
+  }
+  &[data-action="like"] .icon::before {
+    content: "\f087";
+  }
+  &[data-action="dislike"] .icon::before {
+    content: "\f088";
+  }
+}
+</style>
 <h2>Counter #1 (tooltip on top)</h2>
     <div id="counter1" class="counter counter1" data-tooltip="top">
       <ul>
