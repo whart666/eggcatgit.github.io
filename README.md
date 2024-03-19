@@ -1,5 +1,4 @@
 # eggcat
 ## Credits
-- [dleovl](https://github.com/dleovl) - stupid guys helper sadly
-
-real^ definetly
+- [eggcatgit](https://github.com/eggcatgit) - Main developer
+- [dleovl](https://github.com/dleovl) - Main developer
