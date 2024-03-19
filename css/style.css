@@ -1,3 +1,6 @@
 body {
-    background-image: url(".img/Untitled.png");
-   }
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
