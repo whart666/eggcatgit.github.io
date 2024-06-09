@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Tuto</title>
+<style>
+    
+</style>
+
+
+</head>
+
+
+<body style=" background-color: rgb(29, 29, 29);">
+    <input type="search" value="" id="search" onchange="openPage()">
+
+    <script>
+        function openPage() {
+    var x = document.getElementById("search").value;
+
+    if (x === "index") {
+        location.replace("index.html");
+    } else if (x === "cat") {
+        location.replace("customizedalert.html");
+    } else if (x === "") {
+        alert("Not Found");
+    } else {
+        alert("Not Found");
+    }
+}
+
+    </script>
+</body>
+
+</html>

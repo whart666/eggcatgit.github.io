@@ -1,0 +1,315 @@
+.backgroundColor{
+   background-color: rgb(24, 24, 24);
+}
+
+
+
+/*button disabled*/
+.disabledButton{
+    background-color: gainsboro;
+    color: gray;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    
+}
+.disabledButtondiv{
+    position:  absolute;
+    top: 37px;
+    left: 30px;
+}
+
+.postopdivindex{
+    background: rgb(47,255,0);
+    background: linear-gradient(90deg, rgba(47,255,0,1) 0%, rgba(176,255,33,1) 48%, rgba(237,255,0,1) 100%);
+    display: block;
+    width: 95%;
+    border: none;
+    padding: 50px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    table-layout: fixed;
+      
+      
+}
+
+.disabledButtondivright{
+    position:  absolute;
+    top: 37px;
+    right: 30px;
+}
+
+.centertextindex{
+    color: rgb(41, 41, 41);
+    text-align: center;
+    margin: 0px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.centertextindexdiv{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
+
+
+
+
+.homebuttonindex{
+    color: white;
+    background-color: rgb(17, 17, 17);
+    border:black;
+    width: 80px;
+    height: 30px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+
+}
+.homebuttonindex:hover{
+    cursor: pointer;
+    background-color: rgb(54, 54, 54);
+    transition: 200ms;
+}
+.homebuttonindex:active{
+    background-color: rgb(150, 150, 150);
+}
+
+.homebuttonindexdiv{
+    position: absolute;
+    top: 108px;
+    left: 36%;
+}
+
+.homebuttonindexdiv1{
+    position: absolute;
+    top: 108px;
+    left: 45%;
+}
+.homebuttonindexdiv2{
+    position: absolute;
+    top: 108px;
+    left: 60%;
+}
+.homebuttonindexdiv3{
+    position: absolute;
+    top: 108px;
+    left: 52%;
+}
+
+.searchbar{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border: black;
+    
+    border-radius: 7px;
+    width: 175px;
+    height: 30px;
+    box-shadow: 2px;
+    
+}
+
+.searchbardiv{
+    position: absolute;
+    top: 4.5%;
+    left: 20%;
+}
+
+.agradient{
+    background: hsl(0, 0%, 4%);
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 1500px;
+    table-layout: fixed;
+    top: 1243px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    top: 20px;
+    margin-top: 65px;
+}
+
+
+
+
+
+.button{
+    
+    border: none;
+    width: 120px;
+    height: 40px;
+    background: rgb(0,17,255);
+    border-radius: 5px;
+    position: relative;
+    background-image: linear-gradient(
+      to right,
+      hsl(211, 100%, 50%),
+      hsl(327, 100%, 50%)
+      
+      
+    );
+    z-index: 1;
+    color: yellowgrewwwn;
+    cursor: pointer;
+}
+
+  .button::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to left,
+      hsl(211, 100%, 50%),
+      hsl(327, 100%, 50%)
+    );
+    z-index: -1;
+    transition: opacity 0.5s linear;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+  .button:hover::before {
+    opacity: 1;
+  }
+
+.homepagebutton1{
+    top: 300px;
+    left: 60px;
+    position: absolute;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  
+  .up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .card1 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .instagram {
+    margin-top: 1.5em;
+    margin-left: 1.2em;
+    fill: #cc39a4;
+  }
+  
+  .card2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .twitter {
+    margin-top: 1.5em;
+    margin-left: -.9em;
+    fill: #03A9F4;
+  }
+  
+  .card3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .github {
+    margin-top: -.6em;
+    margin-left: 1.2em;
+  }
+  
+  .card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .discord {
+    margin-top: -.9em;
+    margin-left: -1.2em;
+    fill: #8c9eff;
+  }
+  
+  .card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #cc39a4;
+  }
+  
+  .card1:hover .instagram {
+    fill: white;
+  }
+  
+  .card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #03A9F4;
+  }
+  
+  .card2:hover .twitter {
+    fill: white;
+  }
+  
+  .card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: black;
+  }
+  
+  .card3:hover .github {
+    fill: white;
+  }
+  
+  .card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #8c9eff;
+  }
+  
+  .card4:hover .discord {
+    fill: white;
+  }
+  .textass{
+    color: white;
+    
+  }
